@@ -1,7 +1,7 @@
 #include <Adafruit_NeoPixel.h>
 
 #define PIN 2   // input pin Neopixel is attached to
-#define NUMPIXELS 220  // number of neopixels
+#define NUMPIXELS 221  // number of neopixels
 
 const byte lights[20][10] PROGMEM = {       // Map the x,y coordinates of each led on the strip
   {  220 , 219 , 218 , 217 , 216 , 215 , 214 , 213 , 212 , 211 },
